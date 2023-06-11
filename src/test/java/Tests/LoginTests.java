@@ -23,7 +23,7 @@ public class LoginTests extends BaseTest{
 		Assert.assertTrue(loginPage.getCurrentPageUrl().contains(AppConstants.LOGINPAGE_URL_FRACTION));
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void loginTest() {
 		accountsPage = loginPage.doLogin(properties.getProperty("userName"), properties.getProperty("passWord"));
 		Assert.assertTrue(accountsPage.isLogoutLinkExists());

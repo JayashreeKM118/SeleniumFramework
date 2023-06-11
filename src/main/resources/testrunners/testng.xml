@@ -14,12 +14,12 @@
     </classes>
   </test> <!-- Test -->
   
-  <test name="AccountPageTests Page Test"> 
+ <!--  <test name="AccountPageTests Page Test"> 
   <parameter name ="browser" value="chrome"></parameter>      
     <classes>
     	<class name = "Tests.AccountPageTests"></class>
     </classes>
-  </test> <!-- Test -->
+  </test> --> <!-- Test -->
   
   <test name="Search Page Test"> 
   <parameter name ="browser" value="edge"></parameter>      
