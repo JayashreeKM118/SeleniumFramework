@@ -18,6 +18,7 @@ public class LoginTests extends BaseTest{
 		Assert.assertTrue(loginPage.isForgotPasswordPresent());
 	}
 	
+	
 	@Test
 	public void loginPageUrltest() {
 		Assert.assertTrue(loginPage.getCurrentPageUrl().contains(AppConstants.LOGINPAGE_URL_FRACTION));
