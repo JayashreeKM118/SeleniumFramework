@@ -3,7 +3,7 @@ pipeline
     agent any
     
     tools{
-        maven 'Maven'
+        maven 'maven'
         }
 
     stages 
@@ -47,6 +47,8 @@ pipeline
                 
      
         
+        
+        
         stage('Publish Extent Report'){
             steps{
                      publishHTML([allowMissing: false,
@@ -65,7 +67,7 @@ pipeline
             }
         }
         
- 
+        
         
         
     }
